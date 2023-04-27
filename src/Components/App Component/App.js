@@ -11,7 +11,6 @@ const code = new URLSearchParams(window.location.search).get('code');
 function App() {
   return (
     <Fragment>
-      <Router>
         <Routes> 
           <Route path="/" element={code ? <Navigate to="/dashboard" /> : <Login />} />
           <Route path="/dashboard" element={code ? <Mainpage code={code} /> : <Navigate to="/" />} />
@@ -19,7 +18,6 @@ function App() {
           <Route path="/library" element={<Library />} />
           <Route path="/playlist/:playlistId" element={<Playlist />} />
         </Routes>
-      </Router>
     </Fragment>
   );
 }

@@ -3,15 +3,15 @@ import ReactDOM from 'react-dom/client';
 import App from './Components/App Component/App';
 import reportWebVitals from './reportWebVitals';
 import GlobalStyles from './Components/GlobalStyles/GlobalStyles';
-import { HashRouter as Router } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <Router >
+    <HashRouter base='/'>
         <GlobalStyles>
             <App />
         </GlobalStyles>
-    </Router>
+    </HashRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function
