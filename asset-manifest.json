@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/MusicStreamingPlatform/static/css/main.331bcbff.css",
+    "main.js": "/MusicStreamingPlatform/static/js/main.e8b2a98e.js",
+    "static/js/787.49813cda.chunk.js": "/MusicStreamingPlatform/static/js/787.49813cda.chunk.js",
+    "static/media/Login-Photo.jpg": "/MusicStreamingPlatform/static/media/Login-Photo.da568944c1c94fda6bc1.jpg",
+    "static/media/Logo.png": "/MusicStreamingPlatform/static/media/Logo.a89c8660bf344dcaacbe.png",
+    "index.html": "/MusicStreamingPlatform/index.html",
+    "main.331bcbff.css.map": "/MusicStreamingPlatform/static/css/main.331bcbff.css.map",
+    "main.e8b2a98e.js.map": "/MusicStreamingPlatform/static/js/main.e8b2a98e.js.map",
+    "787.49813cda.chunk.js.map": "/MusicStreamingPlatform/static/js/787.49813cda.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.331bcbff.css",
+    "static/js/main.e8b2a98e.js"
+  ]
+}
