@@ -1,0 +1,21 @@
+.each-liked-song-description {
+    display: flex;
+    margin-bottom: 21px;
+}
+
+.each-liked-song-description:hover {
+    cursor: pointer;
+    background: rgba(22, 24, 35, 0.1);
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+.each-liked-song-image {
+    width: 60px;
+    height: 60px;
+}
+
+.each-liked-song-info {
+    font-size: 1.4rem;
+    margin-left: 10px;
+    margin-top: 6px;
+}

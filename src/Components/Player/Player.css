@@ -1,0 +1,83 @@
+.player-icon-container {
+    float: left;
+    position: relative;
+    z-index: 2;
+    margin-top: 20px;
+    margin-left: 26px;
+}
+
+.player-icon {
+    color: var(--grey);
+    cursor: pointer;
+}
+
+.other-btn-color {
+    color: var(--black);
+    cursor: pointer;
+}
+
+.player-add {
+    display: block;
+    margin-top: 5px;
+    color: var(--black);
+    cursor: pointer;
+    position: relative;
+}
+
+.player-add-active {
+    display: block;
+    margin-top: 5px;
+    color: var(--grey);
+    cursor: pointer;
+    position: relative;
+}
+
+.playlist-options-add-container {
+    position: absolute;
+    width: 185px;
+    height: auto;
+    border: 2px solid #333;
+    margin-top: -100px;
+    padding: 10px 4px;
+    height: 100px;
+    overflow-y: auto;
+    background-color: var(--white);
+}
+
+.each-playlist-options {
+    display: flex;
+    margin-bottom: 10px;
+
+}
+
+.each-playlist-name {
+    font-size: 1.7rem;
+}
+
+.each-playlist-button {
+    display: block;
+    float: right;
+    border: 2px solid #333;
+    padding: 2px;
+    background-color: transparent;
+    margin-left: auto;
+    border-radius: 6px;
+}
+
+.each-playlist-button:hover {
+    cursor: pointer;
+    background: rgba(22, 24, 35, 0.1);
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+.show-lyrics-btn {
+    display: block;
+    position: relative;
+    float: right;
+    margin-top: 32px;
+    margin-right: 10px;
+}
+
+.show-lyrics-btn:hover {
+    cursor: pointer;
+}

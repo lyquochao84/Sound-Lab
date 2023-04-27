@@ -1,0 +1,17 @@
+.each-playlist-wrapper {
+    list-style-type: none;
+}
+
+.each-playlist-wrapper {
+    margin-bottom: 20px;
+}
+
+.each-playlist-wrapper:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.each-playlist-name {
+    font-size: 1.6rem;
+}
+

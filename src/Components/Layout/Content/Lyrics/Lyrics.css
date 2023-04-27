@@ -1,0 +1,10 @@
+.lyrics-container {
+    text-align: center;
+    width: 87vw;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.lyrics-text {
+    font-size: 1.8rem;
+}

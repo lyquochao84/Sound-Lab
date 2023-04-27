@@ -1,0 +1,39 @@
+.each-trending-song-container {
+    min-width: 158px;    
+    height: 274px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    transition: transform ease-in 0.1s;
+    will-change: transform;
+}
+
+.each-trending-song-container:hover {
+    cursor: pointer;
+    background: rgba(22, 24, 35, 0.1);
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.05);
+    transform: translateY(-10px);
+}
+
+.each-trending-song-image {
+    width: 158px;
+    height: 162px;
+}
+
+/* .play-icon-btn {
+    height: 28px;
+    transform: translateY(-30px);
+    margin-right: 10px;
+    float: right;
+} */
+
+.each-trending-song-name {
+    font-size: 2.0rem;
+    font-weight: 600;
+    margin-top: 28px;
+}
+
+.each-trending-song-artist {
+    font-weight: 500;
+}

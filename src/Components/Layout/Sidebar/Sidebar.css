@@ -1,0 +1,66 @@
+.sidebar-wrapper {
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid #e6eaf2;
+    width: 183px;
+    height: 110vh;
+    margin-top: -7px;
+    margin-left: 1px;
+}
+
+.sidebar-link {
+    display: flex;
+    /* margin-left: 28px; */
+    margin-top: 40px;
+    transition: 0.4s ease;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+}
+
+.sidebar-link:hover {
+    cursor: pointer;
+    background: rgba(22, 24, 35, 0.1);
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+.sidebar-link_icon {
+    margin-right: 8px;
+    padding-top: 6px;
+    cursor: pointer;
+    color: var(--black);
+}
+
+.sidebar-link_title {
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: var(--black);
+    font-weight: 200;
+}
+
+.sidebar-link_title:nth-child(2) {
+    font-weight: 400
+}
+
+.sidebar-link_separate-line {
+    display: block;
+    color: transparent;
+    border-bottom: 2px solid #e6eaf2; 
+    margin-top: 60px;
+}
+
+.create-playlist-box {
+    margin-left: 20px;
+    z-index: 10;
+}
+
+.create-playlist-box:hover {
+    text-decoration: none;
+}
+
+.playlist-container {
+    margin-left: 28px;
+    margin-top: 20px;
+    height: 100vh;
+    overflow-y: auto;
+}

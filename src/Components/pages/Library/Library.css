@@ -1,0 +1,136 @@
+.library-page-wrapper {
+    display: flex;
+}
+
+.library-page-content-wrapper {
+    width: 940px;
+}
+
+.library-song-page-title {
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+.library-liked-songs-container {
+    border-radius: 6px;
+    width: 850px;
+    height: 300px;
+    margin-left: 80px;
+    border: 2px solid #333;
+    transition: 0.3s;
+    position: relative;
+}
+
+.library-liked-songs-container::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    content: '';
+    background: #333;
+    transition: transform 0.8s;
+    transform-origin: left top;
+    transform: scale(1, 0);
+}
+
+.library-liked-songs-container:hover {
+    cursor: pointer;
+}
+
+.library-liked-songs-container:hover::before {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 6px;
+    transform-origin: left bottom;
+    transform: scale(1, 1);
+}
+
+.library-liked-songs-container:hover .library-liked-songs-title {
+    color: var(--white);
+}
+
+.library-liked-songs-container:hover .library-liked-songs-icon {
+    display: block;
+    color: var(--white);
+}
+
+.library-liked-songs-title {
+    padding-top: 120px;
+    padding-left: 10px;
+    font-size: 6.0rem;
+    color: #333;
+}
+
+.library-liked-songs-icon {
+    float: right;
+    margin-top: 30px;
+    margin-right: 10px;
+    height: 50px;
+    display: none;
+}
+
+.library-playlist-content-container {
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+.library-playlist-title {
+    /* font-size: 2.4rem; */
+}
+
+.library-playlists-wrapper {
+    display: flex;
+    margin: 30px 0;
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.library-playlist-container {
+    list-style-type: none;
+}
+
+.library-playlist-key {
+    margin-right: 32px; 
+    margin-bottom: 40px;
+    width: 188px;
+    height: 220px;
+    border: 2px solid #333;
+    transition: 0.3s;
+    position: relative;
+    border-radius: 6px;
+}
+
+.library-playlist-key::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    content: '';
+    background: #333;
+    transition: transform 0.8s;
+    transform-origin: left top;
+    transform: scale(1, 0);
+}
+
+.library-playlist-key:hover {
+    cursor: pointer;
+    color: var(--white);
+}
+
+.library-playlist-key:hover::before {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 6px;
+    transform-origin: left bottom;
+    transform: scale(1, 1);
+}
+
+.library-playlist-name {
+    text-align: center;
+    margin-right: 6px;
+    margin-top: 94px;
+}
+
+

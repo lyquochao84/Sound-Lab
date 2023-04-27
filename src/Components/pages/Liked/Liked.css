@@ -1,0 +1,80 @@
+.liked-song-page-title {
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+.liked-page-wrapper {
+    display: flex;
+}
+
+.liked-page-content-wrapper {
+    display: flex;
+    margin-left: 80px;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.liked-song-description-title,
+.liked-song-name-title,
+.liked-song-artist-title,
+.liked-song-duration-title,
+.liked-song-date-title {
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.liked-song-name {
+    margin-left: 42px;
+}
+
+.liked-song-songname {
+    margin-top: 58px;
+    font-size: 1.6rem;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 300;
+}
+
+.liked-song-artist {
+    margin-left: 50px;
+}
+
+.liked-song-artist-name {
+    margin-top: 58px;
+    font-size: 1.6rem;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 300;
+}
+
+.liked-song-duration {
+    margin-left: 70px;
+}
+
+.liked-song-duration-time {
+    margin-top: 58px;
+    margin-left: 10px;
+    font-size: 1.6rem;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 300;
+}
+
+.liked-song-date {
+    margin-left: 90px
+}
+
+.liked-song-date-added {
+    margin-top: 58px;
+    /* margin-left: 10px; */
+    font-size: 1.6rem;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 300;
+}
+
+@media (min-width: 100em)  {
+    .liked-page-content-wrapper {
+        margin-left: 180px;
+    }
+}
+
+
+
+

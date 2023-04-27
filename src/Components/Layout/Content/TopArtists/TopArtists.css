@@ -1,0 +1,23 @@
+.each-artist-container {
+    min-width: 158px;
+    height: 274px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.each-artist-image {
+    margin-top: 10px;    
+    margin-left: 5px;
+    width: 148px;
+    height: 148px;
+    border-radius: 9999px;
+}
+
+.each-artist-name {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-top: 28px;
+    text-align: center;
+}

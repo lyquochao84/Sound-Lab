@@ -1,0 +1,167 @@
+.playlist-header {
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.playlist-title-wrapper {
+    display: flex;
+}
+
+.playlist-title {
+   font-size: 4.0rem; 
+}
+
+.playlist-header-icon-container {
+    position: relative;
+}
+
+.playlist-header-icon {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.playlist-header-icon:hover {
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.playlist-options-container {
+    position: absolute;
+    border: 2px solid #333;
+    width: 400%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.playlist-option-changename, 
+.playlist-option-delete {
+    font-size: 1.6rem;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.playlist-option-changename:hover, 
+.playlist-option-delete:hover {
+    cursor: pointer;
+    background: rgba(22, 24, 35, 0.1);
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.05);
+} 
+
+.playlist-total {
+    font-family:"Times New Roman", Times, serif;
+    font-weight: 500;
+    font-size: 1.8rem;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.playlist-changename-container {
+    border: 2px solid #333;
+    width: 350px;
+    height: 150px;
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: -100px;
+    left: 51%;
+}
+
+.playlist-changename-title {
+    margin-top: 20px;
+    font-size: 1.8rem;
+}
+
+.playlist-changename-input {
+    margin-top: 10px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 86%;
+}
+
+.playlist-changename-button {
+    display: block;
+    margin-top: 10px;
+    margin-left: 74%;
+    padding: 5px;
+    border: 2px solid #333;
+    border-radius: 6px;
+    background-color: transparent;
+}
+
+.playlist-changename-button:hover {
+    color: var(--white);
+    background-color: #333;
+    cursor: pointer;
+}
+
+.playlist-wrapper {
+    display: flex;
+}
+
+.playlist-content {
+    margin-left: 100px;
+    /* margin-top: 50px; */
+    display: flex;
+    width: 76%;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.playlist-song-container-title {
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+
+}
+
+.each-playlist-track-wrapper {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.each-playlist-track-wrapper:hover {
+    cursor: pointer;
+    background: rgba(22, 24, 35, 0.1);
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+.each-playlist-track-image {
+    width: 60px;
+    height: 60px;
+}
+
+.each-playlist-track-info {
+    margin-left: 10px;
+}
+
+.playlist-song-duration-title {
+    margin-left: 100px;
+    margin-bottom: 23px;
+    margin-top: 50px;
+}
+
+.playlist-song-duration-time {
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-left: 115px;
+    margin-bottom: 81px;
+    font-family:"Times New Roman", Times, serif;
+}
+
+.playlist-song-date-title {
+    margin-left: 220px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+
+}
+
+.playlist-song-date-added {
+    font-family:"Times New Roman", Times, serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-left: 220px;
+    margin-bottom: 81px;
+}
+

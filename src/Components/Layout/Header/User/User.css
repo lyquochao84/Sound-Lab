@@ -1,0 +1,25 @@
+.user-info-wrapper {
+    display: flex;
+    float: right;
+    margin-top: 56px;
+    margin-right: 160px; 
+}
+
+.user-info-icon {
+    padding-top: 7px;
+    margin-right: 10px;
+    font-size: 1.6rem;
+    color: var(--black);
+}
+
+.user-info-name {
+    font-size: 2.0rem;
+}
+
+/* Responsive */
+/* PC */
+@media (min-width: 100em)  {
+    .user-info-wrapper {
+        margin-right: 286px;
+    }
+}

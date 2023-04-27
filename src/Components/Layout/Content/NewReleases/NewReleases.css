@@ -1,0 +1,40 @@
+.each-new-song-container {
+    min-width: 158px;    
+    height: 274px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    transition: transform ease-in 0.1s;
+    will-change: transform;
+}
+
+.each-new-song-container:nth-child(4) .each-new-song-title {
+    font-size: 1.8rem;
+}
+
+.each-new-song-container:nth-child(5) .each-new-song-title {
+    font-size: 1.8rem;
+} 
+
+.each-new-song-container:hover {
+    cursor: pointer;
+    background: rgba(22, 24, 35, 0.1);
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.05);
+    transform: translateY(-10px);
+}
+
+.each-new-song-image {
+    width: 158px;
+    height: 162px;
+}
+
+.each-new-song-title {
+    font-size: 2.0rem;
+    font-weight: 600;
+    margin-top: 28px;
+}
+
+.each-new-song-artist {
+    font-weight: 500;
+}

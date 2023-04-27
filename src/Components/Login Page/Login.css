@@ -1,0 +1,155 @@
+.welcome-part-wrapper {
+    text-align: center;
+    margin-left: 268px;
+    margin-top: 100px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    width: 60%;
+    height: 70vh;
+    display: flex;
+}
+
+.welcome-part-container {
+    display: flex;
+}
+
+.welcome-text {
+    float: left;
+    margin-top: 140px;
+    margin-left: 70px;
+}
+
+.welcome-part-title {
+    font-size: 4.0rem;
+    animation: slideDown ease 4s;
+}
+
+.welcome-part-description {
+    font-size: 2.0rem;
+    font-weight: 500;
+    animation: slideUp ease 4s;
+}   
+
+.welcome-part-image-wrapper {
+    position: relative;
+}
+
+.welcome-part-image {
+    display: block;
+    margin-left: 96px;
+    width: 340px;
+    height: 70vh;
+}
+
+.welcome-part-next-button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 3.0rem;
+    margin-right: 10px;
+    opacity: 0.7;
+    display: none;
+    padding: 10px 0;
+}
+
+.welcome-part-wrapper:hover .welcome-part-next-button {
+    display: block;
+    cursor: pointer;
+    animation: fadeIn ease-in .2s;
+} 
+
+.welcome-part-next-button:hover {
+    opacity: 0.5;
+}
+
+.login-form {
+   margin: auto;
+}
+
+.login-title {
+    font-size: 4.0rem;
+}
+
+.login-input-container {
+    margin-top: 40px;
+}
+
+.login-email,
+.login-password  {
+    padding: 12px 15px;
+	margin: 8px 0;
+	width: 110%;
+}
+
+.sign-up-container{
+    display: flex;
+}
+
+.sign-up-title{
+    margin-right: 4px;
+}
+
+.sign-up-button {
+    color: var(--black);
+}
+
+.login__btn {
+    color: var(--black-color);
+    padding: 10px 50px;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--black);
+    text-decoration: none;
+    margin-top: 50px;
+    display: block;
+}
+
+.login__btn:hover {
+    color: var(--black);
+    background-color:#e1e6e2;
+    transition: all 0.7s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(164px);
+        opacity: 0;
+    }
+    
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }   
+} 
+     
+@keyframes slideDown {
+    from {
+        transform: translateY(-164px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@media (min-width: 100em)  {
+    .welcome-part-image {
+        margin-left: 228px;
+        width: 400px;
+    }
+}

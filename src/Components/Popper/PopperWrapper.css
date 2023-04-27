@@ -1,0 +1,19 @@
+.search-song-wrapper {
+    width: 38%;
+    margin-left: 178px;
+    margin-top: 16px;
+    position: absolute;
+    background-color: var(--white);
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    max-height: 50%;
+    overflow-y: auto;
+}
+
+/* Responsive */
+/* PC */
+@media (min-width: 100em) {
+    .search-song-wrapper {
+        margin-left: 190px;
+    }
+}
