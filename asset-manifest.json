@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/MusicStreamingPlatform/static/css/main.331bcbff.css",
-    "main.js": "/MusicStreamingPlatform/static/js/main.1d5d7e33.js",
+    "main.css": "/MusicStreamingPlatform/static/css/main.fc8ef3e3.css",
+    "main.js": "/MusicStreamingPlatform/static/js/main.783f3364.js",
     "static/js/787.49813cda.chunk.js": "/MusicStreamingPlatform/static/js/787.49813cda.chunk.js",
     "static/media/Login-Photo.jpg": "/MusicStreamingPlatform/static/media/Login-Photo.da568944c1c94fda6bc1.jpg",
     "static/media/Logo.png": "/MusicStreamingPlatform/static/media/Logo.a89c8660bf344dcaacbe.png",
     "index.html": "/MusicStreamingPlatform/index.html",
-    "main.331bcbff.css.map": "/MusicStreamingPlatform/static/css/main.331bcbff.css.map",
-    "main.1d5d7e33.js.map": "/MusicStreamingPlatform/static/js/main.1d5d7e33.js.map",
+    "main.fc8ef3e3.css.map": "/MusicStreamingPlatform/static/css/main.fc8ef3e3.css.map",
+    "main.783f3364.js.map": "/MusicStreamingPlatform/static/js/main.783f3364.js.map",
     "787.49813cda.chunk.js.map": "/MusicStreamingPlatform/static/js/787.49813cda.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.331bcbff.css",
-    "static/js/main.1d5d7e33.js"
+    "static/css/main.fc8ef3e3.css",
+    "static/js/main.783f3364.js"
   ]
 }
