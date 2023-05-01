@@ -8,7 +8,7 @@ import Sidebar from "../Layout/Sidebar/Sidebar";
 import Logo from "../Layout/Header/Logo/Logo";
 import Player from "../Player/Player";
 import './Playlist.css';
-import { faSquareCaretDown } from "@fortawesome/free-regular-svg-icons";
+import { faSquareCaretDown, faXmarkCircle } from "@fortawesome/free-regular-svg-icons";
 import PlaylistSongs from "./PlaylistSongs/PlaylistSongs";
 
 const spotifyApi = new SpotifyWebApi({
@@ -95,6 +95,7 @@ function Playlist() {
             });
     }
 
+    // Choose track to play
     function chooseTrack(track) {
         setPlayingTrack(track.track);
         spotifyApi.play({
@@ -106,6 +107,19 @@ function Playlist() {
         .catch((error) => {
             console.log(error);
         });
+    }
+
+    // Remove Track from playlist
+    function removeTrack(track) {
+        const trackId = track.track.id;
+        spotifyApi.removeTracksFromPlaylist(playlistId, [{ uri: track.track.uri }])
+            .then(() => {
+                const newPlaylistTrack =  playlistTrack.filter((t) => t.track.id !== trackId);
+                setPlaylistTrack(newPlaylistTrack);
+            })
+            .catch((error) => {
+                console.log(error);
+            })
     }
     return (
         <>
@@ -194,7 +208,17 @@ function Playlist() {
                             const result = `${month} - ${day} - ${year}`;
                             
                             return (
-                                <h3 className='playlist-song-date-added'>{result}</h3>
+                                <>
+                                    <h3 className='playlist-song-date-added'>{result}</h3>
+                                </>
+                            )
+                        })}
+                    </div>
+
+                    <div className="delete-btn-container">
+                        {playlistTrack.map((track) => {
+                            return (
+                                <><FontAwesomeIcon onClick={() => {removeTrack(track)}} className="delete-btn-icon" icon={faXmarkCircle} /></>
                             )
                         })}
                     </div>

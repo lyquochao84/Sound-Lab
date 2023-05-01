@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../Logo/Logo.png';
+import logo from '../Logo/SoundLab-Logo.png';
 import './Logo.css';
 
 function Logo() {

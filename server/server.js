@@ -16,7 +16,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.post('/refresh', (req, res) => {
     const refreshToken = req.body.refreshToken;
     const spotifyApi = new SpotifyWebApi({
-        redirectUri: 'http://localhost:3000/',
+        // redirectUri: 'http://localhost:3000/',
+        redirectUri: 'https://lyquochao84.github.io/MusicStreamingPlatform/',
         clientId: 'd96cbc9c41924effafdd99cb86e163b0',
         clientSecret: '44f7a85bbac4425c9f5509a36845e1cc',
         refreshToken,
@@ -39,7 +40,8 @@ app.post('/login', (req, res) => {
     const code = req.body.code;
 
     const spotifyApi = new SpotifyWebApi({
-        redirectUri: 'http://localhost:3000/',
+        // redirectUri: 'http://localhost:3000/',
+        redirectUri: 'https://lyquochao84.github.io/MusicStreamingPlatform/',
         clientId: 'd96cbc9c41924effafdd99cb86e163b0',
         clientSecret: '44f7a85bbac4425c9f5509a36845e1cc'
     });
@@ -58,7 +60,7 @@ app.post('/login', (req, res) => {
 });
 
 app.get('/lyrics', async(req, res) => {
-    const lyrics = await lyricsFinder(req.query.artist, req.query.track) || "No Lyrics Found"
+    const lyrics = await lyricsFinder((req.query.artist, req.query.track) || "No Lyrics Found")
     res.json({ lyrics });
 })
 

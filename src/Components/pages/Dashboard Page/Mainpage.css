@@ -1,7 +1,7 @@
 /* Search Bar */
 .search-part-wrapper {
     width: 100%;
-    height: 115px;
+    height: 150px;
     border-bottom: 2px solid #e6eaf2;
     z-index: 2;
 }
