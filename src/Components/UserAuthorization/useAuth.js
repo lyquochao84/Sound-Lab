@@ -11,7 +11,7 @@ export default function useAuth(code) {
     // Login Part
     useEffect(() => {
       axios
-        .post("https://lyquochao84.github.io/MusicStreamingPlatform/login", {
+        .post("http://localhost:3001/login", {
           code,
         })
         .then(res => {
@@ -32,7 +32,7 @@ export default function useAuth(code) {
         } 
         const interval = setInterval(() => {
           axios
-            .post("https://lyquochao84.github.io/MusicStreamingPlatform/refresh", {
+            .post("http://localhost:3001/refresh", {
               refreshToken,
             })
             .then(res => {
